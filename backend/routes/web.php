@@ -9,6 +9,6 @@ Route::get('/', function () {
 
 // API Routes (with prefix for clarity)
 Route::prefix('api')->group(function () {
+    // This will handle /api/weather?lat=XXX&lon=XXX
     Route::get('/weather', [WeatherController::class, 'getWeather']);
-    Route::get('/historical-weather', [WeatherController::class, 'getHistoricalWeather']);
 });
