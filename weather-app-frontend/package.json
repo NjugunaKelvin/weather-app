@@ -10,23 +10,32 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@nextui-org/react": "^2.6.11",
+    "@nextui-org/theme": "^2.4.5",
+    "@tailwindcss/postcss": "^3.3.3",
+    "autoprefixer": "^10.4.16",
     "axios": "^1.9.0",
     "date-fns": "^4.1.0",
+    "framer-motion": "^12.9.2",
     "next": "15.3.1",
+    "postcss": "^8.4.31",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "rippleui": "^1.12.1",
+    "tailwindcss": "^3.3.3",
     "weather-app-frontend": "file:"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.4",
     "@types/node": "^20.17.31",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "tailwindcss": "^4",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
     "typescript": "^5"
   }
 }
